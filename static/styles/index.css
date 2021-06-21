@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+body {
+  font-family: 'Cardo', serif;
+}
+
+button {
+  all: unset;
+  text-align: center;
+  border: 2px solid black;
+  border-left: None;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  height: 55px;
+  width: 210px;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+button:hover {
+  color: black;
+  background-color: yellow;
+}
+
+#email {
+  all: unset;
+  border: 2px solid black;
+  font-size: 25px;
+  height: 55px;
+  margin: 0px;
+  width: 400px;
+  float: left;
+  padding-left: 10px;
+}
+
+.newsletter-content {
+  width: 800px;
+  height: 1000px;
+  margin: auto;
+}
